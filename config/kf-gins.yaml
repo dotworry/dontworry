@@ -5,25 +5,25 @@
 
 # IMU和GNSS数据文件路径
 # imudata and gnssdata filepath
-imupath: ".\dataset\IMU_2311061303_converted.txt"
-gnsspath: ".\dataset\converted_rtk.txt"
+imupath: "./dataset/IMU_2311061303_converted.txt"
+gnsspath: "./dataset/converted_rtk.txt"
 
 # 输出文件夹路径
 # output folder path
-outputpath: ".\dataset"
+outputpath: "./dataset"
 
 # IMU文件列数 (只会用前7列IMU数据)
 # IMU data columns, only use the first seven columns
 imudatalen: 7
 # IMU原始数据频率
 # IMU datarate [Hz]
-imudatarate: 200
+imudatarate: 100
 
 # 处理时间段，结束时间设置为-1时则处理至IMU文件结束
 # processing interval[s]
 # process until the imufile end if set endtime to -1
-starttime: 0
-endtime: 0
+starttime: 104651.400000
+endtime: -1
 
 # 初始状态
 # initial state
